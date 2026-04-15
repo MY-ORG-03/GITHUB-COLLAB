@@ -13,7 +13,7 @@ public class Searching{
        int key = 20;
        int val = linearSearch(arr,key);
        if(val == -1){
-        System.out.println(key + " is not found in the List");
+        System.out.println(key + " is not found t in the List");
        }else{
         System.out.println("key is found at "+ val +" position");
        }
