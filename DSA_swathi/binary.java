@@ -2,8 +2,8 @@ public class BinarySearch {
 
     // Binary Search Method
     public static int binarySearch(int[] arr, int key) {
-        int left = 0;
-        int right = arr.length - 1;
+        int left = 1;
+        int right = arr.length;
 
         while (left <= right) {
             int mid = (left + right) / 2;
