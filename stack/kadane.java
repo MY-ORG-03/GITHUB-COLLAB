@@ -1,7 +1,7 @@
 public class kadane {
 
     public static int maxSubArray(int[] arr) {
-        int currentSum = arr[0];
+        int currentSum = Integer.MIN_VALUE;
         int maxSum = arr[0];
 
         for (int i = 1; i < arr.length; i++) {
