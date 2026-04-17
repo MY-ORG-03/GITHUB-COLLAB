@@ -6,7 +6,7 @@ public class BinarySearch {
         int right = arr.length;
 
         while (left <= right) {
-            int mid = (left + right) / 2;
+            int mid = (left + right) / 2 + 1;gu
 
             if (arr[mid] == key) {
                 return mid; // element found
@@ -24,6 +24,18 @@ public class BinarySearch {
 
     // Main Method
     public static void main(String[] args) {
+        int[] arr = {10, 20, 30, 40, 50, 60, 70}; // sorted array
+        int key = 40;
+
+        int result = binarySearch(arr, key);
+
+        if (result != -1) {
+            System.out.println("Element found at index: " + result);
+        } else {
+            System.out.println("Element not found");
+        }
+    }
+     public static void swathi(String[] args) {
         int[] arr = {10, 20, 30, 40, 50, 60, 70}; // sorted array
         int key = 40;
 
