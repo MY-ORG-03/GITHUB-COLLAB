@@ -15,8 +15,12 @@ public class kadane {
         return maxSum;
     }
 
+    static solve(){
+        System.out.println("hi savar");
+    }
+
     public static void main(String[] args) {
         int[] arr = {-2, 1, -3, 4, -1, 2, 1, -5, 4};
-        System.out.println("Maximum Subarray Sum: " + maxSubArray(arr));
+        System.out.println("Maximum Subarray  Sum: " + maxSubArray(arr));
     }
 }
